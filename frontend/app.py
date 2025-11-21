@@ -369,7 +369,7 @@ with tab[2]:
                         xaxis=dict(zeroline=True, zerolinewidth=2, zerolinecolor='black'),
                         margin=dict(l=150, r=50, t=50, b=50)
                     )
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, width='stretch')
                     if base_value is not None:
                         st.caption(f"Base value (expected output): {base_value:.4f}")
                     with st.expander("📋 View All Feature Contributions"):
@@ -378,7 +378,7 @@ with tab[2]:
                             "SHAP Value": feature_values,
                             "Impact": ["Positive" if v >= 0 else "Negative" for v in feature_values]
                         })
-                        st.dataframe(shap_df, use_container_width=True)
+                        st.dataframe(shap_df, width='stretch')
                 else:
                     st.warning("No SHAP values available for this product.")
             else:
@@ -412,7 +412,7 @@ with tab[3]:
             if csv_data:
                 df_export = pd.DataFrame(csv_data)
                 st.subheader("📋 Export Preview")
-                st.dataframe(df_export.head(10), use_container_width=True)
+                st.dataframe(df_export.head(10), width='stretch')
                 st.caption(f"Total rows: {len(df_export)}")
             else:
                 st.warning("No data available for preview")
