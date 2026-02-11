@@ -96,19 +96,6 @@ The application will be available at:
 
 See [docs/API_DOCUMENTATION.md](docs/API_DOCUMENTATION.md) for detailed API documentation.
 
-## Development
-
-### Running Tests
-
-```bash
-pytest tests/
-```
-
-### Code Formatting
-
-```bash
-black .
-```
 
 ## License
 
