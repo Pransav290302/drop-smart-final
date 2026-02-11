@@ -1,4 +1,4 @@
-# DropSmart — Product & Price Intelligence for Dropshipping Sellers
+# DropSmart - A Product & Price Intelligence for Dropshipping Sellers
 
 An end-to-end decision intelligence platform that enables dropshipping sellers to identify high-viability products, price them optimally, and predict stockout risks.
 
