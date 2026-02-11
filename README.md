@@ -1,6 +1,6 @@
 # DropSmart - A Product & Price Intelligence for Dropshipping Sellers
 
-An end-to-end decision intelligence platform that enables dropshipping sellers to identify high-viability products, price them optimally, and predict stockout risks.
+An end-to-end decision intelligence platform that enables dropshipping sellers to identify high-viability products, price them optimally and predict stockout risks.
 
 ## Features
 
@@ -31,7 +31,7 @@ See [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md) for detailed structur
 ### Prerequisites
 
 - Python 3.9+
-- Docker and Docker Compose (optional)
+- Docker and Docker Compose 
 
 ### Installation
 
