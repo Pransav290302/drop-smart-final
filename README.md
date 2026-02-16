@@ -96,11 +96,6 @@ The application will be available at:
 
 See [docs/API_DOCUMENTATION.md](docs/API_DOCUMENTATION.md) for detailed API documentation.
 
-
-## License
-
-[Add your license here]
-
 ## Authors
 
 Pransav M. Patel, Bilal Qader
